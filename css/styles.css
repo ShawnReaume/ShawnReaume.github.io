@@ -1,0 +1,12 @@
+/*
+    Program: styles.css
+    Programmer: Shawn Reaume
+*/
+
+body {
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    background-color: lightsteelblue;
+}
+
