@@ -1,0 +1,58 @@
+/*
+    Program: styles.css
+    Programmer: Shawn Reaume
+*/
+
+body {
+    background-color: rgb(224, 229, 236);
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    body {
+        padding-left: 100px; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-left: 50px; /* Adjust for even smaller screens */
+    }
+
+    .spacer {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding-left: 20px; /* Adjust for smallest screens */
+    }
+
+    header h1, header h2, header h3, header p {
+        font-size: 1.2em;
+    }
+
+    .spacer {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
